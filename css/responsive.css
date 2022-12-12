@@ -1,0 +1,124 @@
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px){
+    .hidden-tablet{
+        display: none;
+    }
+    i.container-icon {
+        margin-left: 4px;
+    }
+    i.container-icons {
+        margin-left: 0;
+    }
+    .content-text {
+        padding: 10px;
+    }
+    .container-left {
+        font-size: 1rem;
+    }
+    .container-input{
+        margin-top: 10px;
+    }
+    .content-container__list-name{
+        margin: 0;
+    }
+    .content-container__list-text, .content-container__list-btn {
+        padding: 9px;
+    }
+    .content-container__list-body{
+        margin: 0;
+    }
+    .container-content{
+        height: 240px;
+    }
+}
+
+
+
+
+/* mobile */
+@media (max-width: 768px){
+    .hidden-mobile{
+        display: none;
+    }
+    .header{
+        margin: 0 -15px;
+    }
+    i.main-icon{
+        margin-left: 20px;
+    }
+    i.main-icons{
+         margin-left: 12px;
+    }
+    i.container-icon{
+        margin-left: 16.5px;
+    }
+    i.container-icons {
+        margin-left: 12px;
+    }
+    .container-left{
+        margin-top: 75px;
+    }
+    .container-content {
+        height: 460px;
+        margin: 0;
+    }
+    .container-rigth{
+        margin-top: 20px;
+    }
+    .container-inputs{
+        margin-top: 10px;
+    }
+    .container-input{
+        margin-top: 10px;
+    }
+    .content-text {
+        padding: 10px;
+    }
+    .btn {
+        width: 300px;
+        height: 30px;
+    }
+    .content-button{
+        margin: 20px;
+    }
+    .content-container__list-name{
+        margin:0;
+    }
+
+    .content-container__list-body{
+        margin:0;
+    }
+    .content-container__list-text,
+    .content-container__list-btn{
+        padding:0;
+    }
+
+    .body-text {
+        padding: 10px;
+    }
+    .container{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .containet-body {
+        height: 700px;  
+        margin: 20px 0;
+    }
+
+    .nav-content{
+        margin-top: 20px;
+        margin-left: 27px !important;
+    }
+    .nav-footer{
+       margin: 30px 40px;
+    }
+    .nav-content {
+        margin-left: 0;
+    }
+    .th2{
+        display:none;
+    }
+    .padding{
+        padding: 20px;
+    }
+}
